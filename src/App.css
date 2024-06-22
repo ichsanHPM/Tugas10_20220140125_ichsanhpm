@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px; /* Batas lebar maksimum */
+  margin: 0 auto; /* Tengah secara horizontal */
+  padding: 2rem; /* Padding di semua sisi */
+  text-align: center; /* Teks rata tengah */
+  background-color: #f9f9f9; /* Warna latar belakang  */
+  border-radius: 10px; /* Mengatur sudut */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.logo {
+  height: 6em; /* Tinggi logo */
+  padding: 1.5em; /* Padding di semua sisi */
+  will-change: filter; /* Optimasi perubahan filter */
+  transition: filter 300ms; /* Transisi selama 300ms */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Efek bayangan pada hover */
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Efek bayangan khusus untuk logo React */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg); /* Mulai dari rotasi 0 derajat */
+  }
+  to {
+    transform: rotate(360deg); /* Berakhir pada rotasi 360 derajat */
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear; /* Animasi putar selama 20 detik */
+  }
+}
+
+.card {
+  padding: 2em; /* Padding di semua sisi */
+  background-color: #ffffff; /* Latar belakang putih */
+  border-radius: 10px; /* Sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  margin-bottom: 2rem; /* Jarak bawah */
+}
+
+h1 {
+  color: #333; /* Warna teks */
+  font-size: 2.5rem; /* Ukuran font */
+  margin-bottom: 2rem; /* Jarak bawah */
+}
+
+p {
+  color: #555; /* Warna teks  */
+  font-size: 1.125rem; /* Ukuran font sedang */
+  line-height: 1.6; /* Jarak antar baris */
+  margin-bottom: 1.5rem; /* Jarak bawah */
+  text-align: justify;
+}
+
+img {
+  max-width: 100%; /* Gambar responsif */
+  height: auto; /* Pertahankan rasio aspek */
+  border-radius: 10px; /* Sudut membulat pada gambar */
+  margin-bottom: 2rem; /* Jarak bawah */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk transformasi dan bayangan */
+}
+
+img:hover {
+  transform: scale(1.05); /* Efek zoom pada hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan lebih besar pada hover */
+}
+
+.read-the-docs {
+  color: #888; /* Warna teks abu-abu */
+}
+
+.content {
+  background-color: #d9f3ee; /* Latar belakang putih */
+  border-radius: 10px; /* Sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  padding: 2rem; /* Padding di semua sisi */
+  margin-top: 2rem; /* Jarak atas */
+}
